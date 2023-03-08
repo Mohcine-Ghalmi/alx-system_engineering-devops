@@ -1,1 +1,0 @@
-learning how scripts work
