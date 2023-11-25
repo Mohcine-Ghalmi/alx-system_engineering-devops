@@ -6,6 +6,7 @@
 <br>
 <img src="image-1.png" style="display: block; margin: auto;">
 <br>
+
 >A server is a computer hardware or software that provides services to other programs or devices, known as clients. It follows a client-server model where servers can perform tasks like sharing data or resources among multiple clients or performing computations for a client. A server can serve multiple clients, and a client can use multiple servers. The client process can run on the same device or connect to a server on a different device over a network. Examples of servers include <b>database servers, file servers, mail servers, print servers, web servers, game servers, and application servers</b>.
 
 ## SSH essentials
@@ -51,7 +52,6 @@ To generate an RSA key pair on your local computer, you can use the following co
         $ ssh-keygen
     </code>
 </pre>
-
 <pre>
     <code>
         Generating public/private rsa key pair. <br>
@@ -93,3 +93,8 @@ When generating an RSA key pair on your local computer, you have the option to c
         +-----------------+
     </code>
 </pre>
+
+>This procedure has generated an RSA SSH key pair, located in the .ssh hidden directory within your user’s home directory. These files are:
+
+>~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE! <br>
+~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
