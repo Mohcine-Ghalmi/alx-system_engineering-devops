@@ -96,5 +96,7 @@ When generating an RSA key pair on your local computer, you have the option to c
 
 >This procedure has generated an RSA SSH key pair, located in the .ssh hidden directory within your user’s home directory. These files are:
 
->~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE! <br>
-~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
+- ~/.ssh/id_rsa: The private key. DO NOT SHARE THIS FILE! <br>
+- ~/.ssh/id_rsa.pub: The associated public key. This can be shared freely without consequence.
+
+### SSH Config File
