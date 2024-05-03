@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # how to list my processes 
 
-top 
+ps -a -x -u -f
