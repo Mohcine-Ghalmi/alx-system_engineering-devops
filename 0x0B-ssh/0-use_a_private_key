@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # connect to srvr using private key
-ssh -v ubuntu@18.210.20.1 -i ~/.ssh/id_rsa
+ssh ubuntu@18.210.20.1 -i ~/.ssh/id_rsa
